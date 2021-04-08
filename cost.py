@@ -17,8 +17,3 @@ def Euclidean_distance(p1, p2):
     x1, y1 = p1
     x2, y2 = p2
     return math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
-
-def foo(x,y):
-    return x,y
-x, y = foo(0,0)
-print(Euclidean_distance(foo(0,0), foo(3,4)))
